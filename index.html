@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelmoez Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function() {
+          emailjs.init("YRdKc_QmXB83m4eBbX"); // استبدل YOUR_USER_ID بمعرف المستخدم الخاص بك
+       })();
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="image/1.jpeg" alt="Profile Picture" class="profile-pic">
+            <h1>Mohamed Abdelmoez Abdelwahhab</h1>
+            <p class="tagline">Web Developer | Designer | Programmer</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>"An aspiring junior programmer and software developer, I am focused on enhancing my coding skills through diverse projects using HTML, CSS, and JavaScript. Passionate about learning new technologies and creating innovative software solutions."</p>
+            <button class="navigate-btn" data-target="#projects">Go to Projects</button>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Project 1 -->
+            <div class="project">
+                <h3>calculator by react</h3>
+                <button onclick="window.open('https://moez86-dev.github.io/calulator-react-js/', '_blank')">Open Project</button>
+            </div>
+            <!-- Project 2 -->
+            <div class="project">
+                <h3>calculator html</h3>
+                <button onclick="window.open('https://moez86-dev.github.io/calulator-html-css-js/', '_blank')">Open Project</button>
+            </div>
+            <!-- Project 3 -->
+            <div class="project">
+                <h3>crm sales team</h3>
+                <button onclick="window.open('https://moez86-dev.github.io/crm-sales-team/', '_blank')">Open Project</button>
+            </div>
+            <!-- Project 4 -->
+            <div class="project">
+                <h3>ecommerce</h3>
+                <button onclick="window.open('https://moez86-dev.github.io/e-commerce/', '_blank')">Open Project</button>
+            </div>
+            <!-- Project 5 -->
+            <div class="project">
+                <h3>grid system</h3>
+                <button onclick="window.open('https://moez86-dev.github.io/grid-system/', '_blank')">Open Project</button>
+            </div>
+            <!-- Project 6 -->
+            <div class="project">
+                <h3>guess-game</h3>
+                <button onclick="window.open('https://moez86-dev.github.io/guess-game/', '_blank')">Open Project</button>
+            </div>
+            <!-- Project 7 -->
+            <div class="project">
+                <h3>random-image-gene</h3>
+                <button onclick="window.open('https://moez86-dev.github.io/Random-image-gene/', '_blank')">Open Project</button>
+            </div>
+            <!-- Project 8 -->
+            <div class="project">
+                <h3>todo list</h3>
+                <button onclick="window.open('https://moez86-dev.github.io/Todo-List/', '_blank')">Open Project</button>
+            </div>
+            <!-- Project 9 -->
+            <div class="project">
+                <h3>web bootstrab</h3>
+                <button onclick="window.open('https://moez86-dev.github.io/web-bootstrab/', '_blank')">Open Project</button>
+            </div>
+            <button class="navigate-btn" data-target="#contact">Go to Contact</button>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> Phone: 0096654087054</p>
+                <p><i class="fas fa-envelope"></i> Email: mly475229@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MOEZ. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61553830381934&mibextid=LQQJ4d" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@mohamed_moez?_t=8oZMx4mJAoS&_r=1" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/%D9%85%D8%AD%D9%85%D8%AF-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%B9%D8%B2-8146b617a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/abdelhafez1616?igsh=bHl0aTJ1cnk2a2x4&utm_source=qr" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/moez86-dev" class="social-icon github"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
